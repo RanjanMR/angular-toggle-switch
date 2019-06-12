@@ -1,14 +1,11 @@
 {
   "name": "angular-bootstrap-toggle-switch",
-  "version": "0.5.6",
+  "version": "0.5.1",
   "title": "Angular.JS Toggle Switch",
-  "author": {
-    "name": "Chris Garvis",
-    "url": "http://chrisgarvis.com"
-  },
+  "author": "Chris Garvis (http://chrisgarvis.com)",
   "repository": {
     "type": "git",
-    "url": "git@github.com:JumpLink/angular-toggle-switch.git"
+    "url": "git+ssh://git@github.com/JumpLink/angular-toggle-switch.git"
   },
   "license": "MIT",
   "keywords": [
@@ -44,7 +41,9 @@
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.6",
     "karma-script-launcher": "^0.1.0",
-    "matchdep": "~1.0.0"
+    "matchdep": "~1.0.0",
+    "angular": ">=1.0",
+    "angular-mocks": ">=1.0"
   },
   "scripts": {
     "test": "grunt test -v"
@@ -69,5 +68,13 @@
     "Tom Vincent <git@tlvince.com>",
     "alexndlm <alexndlm@gmail.com>",
     "Alemar Osorio <darkguy2008@gmail.com>"
-  ]
+  ],
+  "description": "Toggle Switches for AngularJS (and optionally Bootstrap). Based off [Bootstrap switch](http://www.larentis.eu/switch/) by Matt Lartentis and forked from [cgarvis](https://github.com/cgarvis/angular-toggle-switch).",
+  "bugs": {
+    "url": "https://github.com/JumpLink/angular-toggle-switch/issues"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  }
 }
